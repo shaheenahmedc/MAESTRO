@@ -1,0 +1,27 @@
+{
+    "experiment_name": "exp_1_5",
+    "log_base_path": "/root/inspect_evals/src/inspect_evals/swe_bench/",
+    "max_reflection_steps": 30,
+    "agents": {
+        "agent_A": {
+            "model": "o1-mini",
+            "model_family": "o1",
+            "provider": "openai"
+        },
+        "agent_B": {
+            "model": "o1-mini",
+            "model_family": "o1",
+            "provider": "openai"
+        },
+        "agent_C": {
+            "model": "o1-mini",
+            "model_family": "o1",
+            "provider": "openai"
+        },
+        "agent_D": {
+            "model": "o1-mini",
+            "model_family": "o1",
+            "provider": "openai"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "experiment_name": "exp_4_1",
+    "log_base_path": "/root/inspect_evals/src/inspect_evals/swe_bench/",
+    "max_reflection_steps": 30,
+    "agents": {
+        "agent_A": {
+            "model": "anthropic/claude-3.5-haiku",
+            "model_family": "claude-3.5-haiku",
+            "provider": "openrouter",
+            "require_full_parameter_support": true,
+            "middle_out": true
+        },
+        "agent_B": {
+            "model": "anthropic/claude-3.5-haiku",
+            "model_family": "claude-3.5-haiku",
+            "provider": "openrouter",
+            "require_full_parameter_support": true,
+            "middle_out": true
+        },
+        "agent_C": {
+            "model": "anthropic/claude-3.5-haiku",
+            "model_family": "claude-3.5-haiku",
+            "provider": "openrouter",
+            "require_full_parameter_support": true,
+            "middle_out": true
+        },
+        "agent_D": {
+            "model": "anthropic/claude-3.5-haiku",
+            "model_family": "claude-3.5-haiku",
+            "provider": "openrouter",
+            "require_full_parameter_support": true,
+            "middle_out": true
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "experiment_name": "exp_2_2",
+    "log_base_path": "/root/inspect_evals/src/inspect_evals/swe_bench/",
+    "max_reflection_steps": 30,
+    "agents": {
+        "agent_A": {
+            "model": "gpt-4o",
+            "model_family": "gpt-4",
+            "provider": "openai"
+        },
+        "agent_B": {
+            "model": "gpt-4o",
+            "model_family": "gpt-4",
+            "provider": "openai"
+        },
+        "agent_C": {
+            "model": "gpt-4o",
+            "model_family": "gpt-4",
+            "provider": "openai"
+        },
+        "agent_D": {
+            "model": "gpt-4o",
+            "model_family": "gpt-4",
+            "provider": "openai"
+        }
+    }
+}

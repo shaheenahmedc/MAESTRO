@@ -1,0 +1,38 @@
+{
+    "experiment_name": "exp_3_1",
+    "log_base_path": "/root/inspect_evals/src/inspect_evals/swe_bench/",
+    "max_reflection_steps": 30,
+    "agents": {
+        "agent_A": {
+            "model": "anthropic/claude-3.5-haiku",
+            "model_family": "claude-3.5-haiku",
+            "provider": "openrouter",
+            "require_full_parameter_support": true,
+            "middle_out": true
+        },
+        "agent_B": {
+            "model": "gpt-4o",
+            "model_family": "gpt-4",
+            "provider": "openai",
+            "temperature": 0.9
+        },
+        "agent_C": {
+            "model": "anthropic/claude-3.5-haiku",
+            "model_family": "claude-3.5-haiku",
+            "provider": "openrouter",
+            "require_full_parameter_support": true,
+            "middle_out": true,
+            "temperature": 0.9
+        },
+        "agent_D": {
+            "model": "google/gemini-2.0-flash-lite-001",
+            "model_family": "unknown",
+            "vision": "True",
+            "function_calling": "True",
+            "json_output": "False",
+            "provider": "openrouter",
+            "require_full_parameter_support": true,
+            "middle_out": true
+        }
+    }
+}
