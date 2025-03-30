@@ -1,4 +1,4 @@
-# Multi-Agent SWE-bench - AISI Bounty Project - Shaheen Ahmed-Chowdhury 
+# Multi-Agent SWE-bench - AISI Bounty Project 
 
 This PR contains a few additions to Inspect_evals' SWE-Bench implementation, facilitating the use a multi-agent tool, by Inspect's `basic_agent`.
 
