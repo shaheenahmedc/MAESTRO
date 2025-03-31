@@ -4,8 +4,6 @@ This repo contains the final report and code for my scaffolding bounty project w
 
 The `consult_multi_agent_team()` tool used [here](https://github.com/shaheenahmedc/MAESTRO/blob/c9da7af28365e6df7e7fd858c927418dd1a3932c/swe_bench.py#L231) should be usable across all Inspect solvers. 
 
-Todo: remove swe_bench task code. 
-
 ## Overview
 
 Within this project, we sought to investigate whether we could elicit capability uplifts on SWE-Bench, via the use of multi-agent systems. We wanted to measure performance against single-agent baselines, normalising for tokens across experiments. A copy of the accompanying report can be found in this repo.
@@ -40,4 +38,5 @@ Within the `autogen_team/` folder, you will find the following files and folders
 - OpenAI, Claude and Llama models seem to work reliably via OpenRouter. Gemini models proved more difficult. We thought OpenRouter would allow us to use a single function-calling format for our API calls, but this doesn't seem to be the case.
 - Occasionally, a consultant agent will skip the last round of reflection, and just immediately return an answer. Could be some sort of race condition. 
 - A useful extension would be to further generalise the code, such that a user can pass any number of agents and messaging pattern in the config file. But this hasn't been implemented yet.
+- Todo: remove swe_bench task code, cleanup filepaths/imports such that this repo can be imported to inspect_evals' SWE-Bench implementation, and the solvers can be imported to inspect_evals' `swe_bench.py` [here](https://github.com/UKGovernmentBEIS/inspect_evals/blob/main/src/inspect_evals/swe_bench/swe_bench.py).
 
