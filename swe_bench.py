@@ -34,21 +34,6 @@ from inspect_evals.swe_bench.swe_agent_tools import (
     search_file,
 )
 
-# from inspect_evals.swe_bench.multi_agent_baseline import multi_agent_baseline
-# from inspect_evals.swe_bench.multi_agent_consultancy_team import (
-#     multi_agent_consultancy_team,
-#     consult_multi_agent,
-# )
-# from inspect_evals.swe_bench.autogen_core_MAS import (
-#     autogen_core_debate_team,
-#     consult_autogen_core_debate_team,
-# )
-
-# from inspect_evals.swe_bench.autogen_core_MAS_with_tools import (
-#     autogen_core_debate_team_with_tools,
-#     consult_multi_agent_team,
-# )
-
 from inspect_evals.swe_bench.autogen_team.main import consult_multi_agent_team
 from inspect_ai.solver import bridge
 
@@ -234,7 +219,7 @@ def default_solver(max_messages: int = 50) -> Solver:
     )
 
 
-# # Single agent baseline
+# # Single agent baseline solver
 # def default_solver(max_messages: int = 50) -> Solver:
 #     return basic_agent(
 #         init=system_message(
