@@ -1,0 +1,14 @@
+Experiment number,Figure,SAS,MAS,Run 1 Log,Run 2 Log,Run 3 Log
+1_1,4,3.5 haiku,3.5 haiku,2025-03-19T10-10-49+00-00_swe-bench_giGdiofsx3pHCvyyMCrpq7.eval,2025-03-27T10-32-28+00-00_swe-bench_2FPy7dTLuqqm457A9VssDz.eval ,2025-03-27T11-16-50+00-00_swe-bench_MjdAkSff5UczvnGkLf5kJb.eval 
+1_2,4,3.5 haiku,-,2025-03-27T11-49-50+00-00_swe-bench_dsWwPfLHGmTCcCr5nSG6NK.eval  ,2025-03-27T12-16-23+00-00_swe-bench_G5jN6JZoyTheXduFUYc9VA.eval ,2025-03-27T12-53-30+00-00_swe-bench_cdwUrUqoagMsFY29sttanG.eval 
+1_3,4,4o,4o,2025-03-21T12-13-20+00-00_swe-bench_MtCwMf9VySCc2d7gPJYCTE.eval ,2025-03-27T13-54-35+00-00_swe-bench_bZ6FNQp7N8KxeXrC9q86Ta.eval ,2025-03-27T14-17-27+00-00_swe-bench_MZ2FHQVmnhWEyAqduXrPoW.eval
+1_4,4,4o,-,2025-03-27T14-50-28+00-00_swe-bench_Wqfjqr6rdtZ67EBhCy7ssn.eval ,2025-03-27T16-07-36+00-00_swe-bench_Hon88BstnBr67NK4Bz4icC.eval , 2025-03-27T16-14-19+00-00_swe-bench_FEWqqNMQ2jDwvxccvGcyQQ.eval 
+2_1,5,4o,haiku x 4,2025-03-21T18-47-29+00-00_swe-bench_NZurXaRh27EpAGrDhHE84A.eval ,2025-03-27T17-11-10+00-00_swe-bench_hem3ShRZTLWxuCSXuNdUPm.eval ,2025-03-27T18-10-40+00-00_swe-bench_RYLvLGSEBvKaDiJEb8g3u8.eval 
+2_2,5,haiku,4o x 4,2025-03-21T19-18-58+00-00_swe-bench_dpaLoBoMAHNkTRPoegLJvP.eval ,2025-03-27T18-19-25+00-00_swe-bench_KpYoxUvQn6TDYswDLGnBMY.eval ,2025-03-27T18-56-44+00-00_swe-bench_YzuNkFhH3bXBeNt4Dgj6ug.eval
+2_3,5,4o,-,2025-03-27T19-07-03+00-00_swe-bench_UxQCAMbSuFVGcP2jeamVGa.eval,2025-03-27T21-17-05+00-00_swe-bench_M3EG4DraaGtGg5FapNCLbL.eval,2025-03-27T23-02-18+00-00_swe-bench_emdPUMaaigd6T7ekVcoYch.eval 
+2_4,5,haiku,-,2025-03-27T23-23-14+00-00_swe-bench_V5epJU9SBLzaX66gbmj4AW.eval ,2025-03-27T23-25-59+00-00_swe-bench_5v5QeS3549i2bdQZejJaoA.eval,2025-03-27T23-52-13+00-00_swe-bench_C4v8qFUvLc8Hrq9sgSES5B.eval 
+3_1,6,4o,"haiku, 4o_high_temp, haiku_high_temp, gemini",2025-03-24T11-39-06+00-00_swe-bench_KgUqMqCrKv9m9crSpex2Rw.eval,,
+3_2,6,haiku,"4o, 4o_high_temp, haiku_high_temp, gemini",2025-03-24T12-03-37+00-00_swe-bench_JMCEWXjRTmNnvRMj7po7MW.eval,,
+3_3,6,4o_high_temp,"4o, haiku_high_temp, gemini",2025-03-24T13-36-51+00-00_swe-bench_5V7USPxcWb2NHnqmSoUV58.eval,,
+3_4,6,haiku_high_temp,"4o, haiku, 4o_high_temp, gemini",2025-03-24T15-09-34+00-00_swe-bench_NAeupzdbCro9ejSCHfc8L9.eval,,
+3_5,6,gemini,"4o, haiku, 4o_high_temp, haiku_high_temp",,,
