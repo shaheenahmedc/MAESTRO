@@ -1,6 +1,6 @@
 # Multi-Agent SWE-bench - AISI Bounty Project 
 
-This repo contains the final report and code for my bounty project with AISI. The entrypoint to inspect_evals' SWE-Bench [implementation](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/src/inspect_evals/swe_bench) is via the solvers in `swe_bench.py`, where a single agent and (single agent with multi-agent tool) solver can be found. 
+This repo contains the final report and code for my scaffolding bounty project with AISI. The entrypoint to inspect_evals' SWE-Bench [implementation](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/src/inspect_evals/swe_bench) is via the solvers in `swe_bench.py`, where a single agent and (single agent with multi-agent tool) solver can be found. 
 
 The `consult_multi_agent_team()` tool used [here](https://github.com/shaheenahmedc/MAESTRO/blob/c9da7af28365e6df7e7fd858c927418dd1a3932c/swe_bench.py#L231) should be usable across all Inspect solvers. 
 
