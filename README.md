@@ -2,7 +2,9 @@
 
 This repo contains all code for my AISI bounty scaffolding project. The entrypoint to inspect_evals' SWE-Bench [implementation](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/src/inspect_evals/swe_bench) is via the solvers in `swe_bench.py`, where a single agent and (single agent with multi-agent tool) solver can be found. 
 
-Todo: remove the swe_bench task code. 
+The `consult_multi_agent_team()` tool used [here](https://github.com/shaheenahmedc/MAESTRO/blob/c9da7af28365e6df7e7fd858c927418dd1a3932c/swe_bench.py#L231) should be usable across all Inspect solvers. 
+
+Todo: remove swe_bench task code. 
 
 ## Overview
 
